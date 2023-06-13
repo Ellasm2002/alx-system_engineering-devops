@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in{a..n}{p..z};do for j in {a..z};do echo "$i$j";done;done
+for i in{a..n}do for j in{a..z}do[["$i$j"!=oo]]&&echo"$i$j"done
